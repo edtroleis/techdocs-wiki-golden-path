@@ -1,4 +1,6 @@
 site_name: Golden Path de Arquitetura
+# Avisos do mkdocs (links/nav quebrados) viram erro e falham o CI
+strict: true
 site_description: Caminho recomendado para construir e operar serviços
 repo_url: https://github.com/edtroleis/techdocs-wiki-golden-path
 edit_uri: edit/main/docs/
