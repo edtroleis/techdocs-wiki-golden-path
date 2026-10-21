@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: wiki-golden-path
+  title: Golden Path de Arquitetura
+  description: Caminho recomendado para construir e operar serviços
+  tags: [wiki]
+  annotations:
+    github.com/project-slug: edtroleis/techdocs-wiki-golden-path
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: production
+  owner: platform-team

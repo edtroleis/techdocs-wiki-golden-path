@@ -1,0 +1,16 @@
+site_name: Golden Path de Arquitetura
+site_description: Caminho recomendado para construir e operar serviços
+repo_url: https://github.com/edtroleis/techdocs-wiki-golden-path
+edit_uri: edit/main/docs/
+nav:
+  - Início: index.md
+  - Princípios: principios.md
+  - Construir:
+      - Estrutura do serviço: estrutura-servico.md
+      - CI/CD: ci-cd.md
+  - Operar:
+      - Observabilidade: observabilidade.md
+      - Segurança: seguranca.md
+  - Checklist de produção: checklist.md
+plugins:
+  - techdocs-core
